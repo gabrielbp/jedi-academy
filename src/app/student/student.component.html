@@ -1,0 +1,13 @@
+<div>
+  Student: {{student.name}}
+  <div *ngIf="student.isJedi">
+    Jedi Temple: {{student.temple}}
+  </div>
+</div>
+
+
+<!-- Template Interpolation
+<jad-header title="{{isJedi ? 'Jedi' : 'Sith'}}"></jad-header>-->
+
+<!-- Property Binding
+<jad-header [title]="isJedi ? 'Jedi' : 'Sith' "></jad-header>-->
